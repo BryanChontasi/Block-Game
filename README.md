@@ -20,9 +20,9 @@ website has a rankings page that displays the top
 scores of all the users.
 
 
-5-PHP. This is used to generate parts of the
-website dynamically.
-*DONE
+5-PHP used to generate part of the
+Contact Us page dynamically.
+
 
 6-Attractiveness and easy usability. 
 
