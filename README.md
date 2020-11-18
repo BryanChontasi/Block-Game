@@ -1,4 +1,5 @@
 # Block-Game
+By Bryan Chontasi
 
 
 1-Website that enables users to play a game. Must be
