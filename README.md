@@ -26,7 +26,7 @@ Contact Us page dynamically.
 
 6-Attractiveness and easy usability. 
 
-7-Good code quality. including comments, layout,
+7-Code quality. including comments, layout,
 organization, etc.
 
 
