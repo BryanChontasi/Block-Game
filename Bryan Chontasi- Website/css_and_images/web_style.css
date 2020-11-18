@@ -1,0 +1,190 @@
+/*  
+    Author     : Bryan Chontasi
+*/ 
+
+/*Background in all the pages */
+body{
+
+    background-image: url(background1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+
+/*Style for the logo image located in all the pages */
+img{
+    width: auto;
+    height: 120px;
+    margin: auto;
+    margin-top: 70px;
+    display: block;
+    border-radius: 10px; 
+}
+
+/*Title in index.html page */
+h1{
+    text-align: center;
+    color: #ffffff;
+}
+
+/*Select all element */
+*{
+    margin: 0px  ;
+    padding: 0px ;
+    font-family:  helvetica neue;
+    font-weight: lighter;
+}
+
+/*Style for interactive menu located in index.html */
+div#menu{
+    width: 200px;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+div#menu ul{
+    list_style: none;
+}
+div#menu ul li{
+    margin-top: 15px;
+    font-family: tahoma;
+    font-size: 18px;
+    background-color: #639bb3;
+    width: 160px;
+    padding-top:  10px;
+    padding-bottom: 10px;
+    border-radius: 0px 20px 20px 0px;
+    padding-left:  20px;
+    box-shadow: 5px 0px 10px #939393;
+    -webkit-transition:padding-left 0.6s;   
+    color: white;
+}
+div#menu ul li:hover{
+    padding-left: 50px;
+}
+a:link{
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+
+}
+a:visited {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+}
+a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+/*Style for login form  and register Form located in loginAndRegister.html */
+section#loginForm{
+    position:absolute;
+    top: 45%;
+    left:30%;
+    margin-left: -200px;
+    margin-top: 0px;
+    width: 400px;
+    height: 260px;
+    background-color: #ffff33;
+    overflow: hidden;
+    border-radius: 15px;
+    color: #75b6dc;
+}
+section#registerForm{
+    position: absolute;
+    top:35%;
+    left: 70%;
+    margin-left: -200px;
+    margin-top: 0px;
+    width: 400px;
+    height: 360px;
+    background-color: #ffff33;
+    overflow: hidden;
+    border-radius: 15px;
+    color: #75b6dc;
+}
+p#title{
+    font-size: 1.6em;
+    text-align: center;
+    margin-top: 20px;
+}
+p#title2{
+    font-size: 1.6em;
+    text-align: center;
+    margin-top: 20px;    
+}
+p#loginError{
+    font-size: 1em;
+    text-align: center;
+    margin-top: -10px;
+}
+
+/*Style for inputs located in loginAndRegister.html and contactUs.html  */
+input[type="text"],input[type="email"],input[type="password"],textArea{
+    width: 350px;
+    height: 35px;
+    margin-left: 20px;
+    margin-top: 10px;
+    padding-left: 10px;
+    font-size:  1.1em;
+    outline: none;
+    border: 0px;
+    background-color: #dcdcdc;
+    border-radius: 5px;
+}
+textArea{
+    max-width: 350px;
+    min-width: 350px;
+    min-height: 70px;
+    padding-top: 10px;
+}
+input[type="submit"]{
+    margin: 20px;
+    margin-bottom: 40px;
+    width: 360px;
+    height: 40px;
+    outline: none;
+    border: 0px;
+    background-color: #75b6dc;
+    color: white;
+    font-size: 1.2em;
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 5px 0px #659dbf;
+
+}
+
+/*Style for login form  and register Form located in loginAndRegister.html */
+section#contactUs{
+    position: absolute;
+    top:42%;
+    left: 50%;
+    margin-left: -200px;
+    margin-top: -70px;
+    width: 400px;
+    min-height: 100px;
+    background-color: #ffff33;
+    overflow: hidden;
+    border-radius: 15px;
+    color: #75b6dc;
+}
+footer{
+    position: absolute;
+    align-self: flex-end;
+    background-color: rgba(120,120,120, .5);
+    line-height: 3;
+    text-align: center;
+    width: 100%;
+    color: white;
+
+    top: 92%;
+    
+    
+}

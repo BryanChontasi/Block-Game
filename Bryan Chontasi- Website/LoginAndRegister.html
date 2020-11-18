@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Login or Register</title>
+        <meta charset="UTF-8">
+        <link href="css_and_images/web_style.css" rel="stylesheet" />
+        <script language="javascript" src="javascript/functions.js"></script>
+    </head>
+
+    <body onload="checkLogin();">
+        <a href="index.html" >
+            <div>
+                <img  src="css_and_images/logo.png">
+            </div><br />            
+        </a>
+
+        <!--Log in-->
+        <section id="loginForm">
+            <p id="title">Log in</p>       
+            <form action="game.html" onsubmit="return false">
+                <div id="loginAlert"> 
+                    <input type="text" id="username" name="username" placeholder="Insert username">
+                    <input type="password" id="password" name="password" placeholder="Insert password">
+                    <input type="submit" value="Play " onclick="log_in();">
+                </div>
+            </form>
+            <!--Message if there is an error-->
+            <p id="loginError" style="color: red"></p>
+
+        </section>
+
+        <!--Register-->
+        <section id="registerForm">   
+            <p id="title2">Register form</p>
+            <form id="userDetails" onsubmit="return false">
+                <input type="text" id="nameusr" name="name" placeholder="Insert name">
+                <input type="text" id="country" name="country" placeholder="Insert country">
+                <input type="text" id="username1" name="username" placeholder="Create Username">
+                <input type="password" id="password1" name="password" placeholder="Create password">
+                <input type="password" id="password2" name="password" placeholder="Repeat your password">
+                <input type="submit" value="Submit" onclick="register();">
+            </form>
+            <p id="resultMessage"></p>
+        </section>
+        <footer>
+            &copy;BLOCK+ is a registered trademark.
+        </footer>
+    </body>
+</html>

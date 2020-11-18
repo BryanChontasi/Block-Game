@@ -1,0 +1,59 @@
+body{
+    
+    background-image: url(background1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+img{
+   width: auto;
+   height: 70px;
+   margin: auto;
+   margin-top: -10px;
+   display: block;
+   border-radius: 10px; 
+}
+
+p{
+    color: antiquewhite;
+    font-size: 20px;
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+}
+
+#score{
+    text-align: center;
+    
+}
+
+.clear{
+    clear: both;
+}
+#size-bloc{
+    margin-left: -50px;
+    padding-left: 50%;
+}
+
+#size-title{
+    float: left;
+    margin-top: 0px;
+}
+
+#size{
+    width: 50px;
+    margin-left: 10px;
+    border-radius: 3px;
+}
+
+#canvas{
+    background-color: burlywood;
+}
+
+#canvas-bloc{
+    margin-left: -250px;
+    padding-left: 50%;
+    margin-bottom: 10px
+}
